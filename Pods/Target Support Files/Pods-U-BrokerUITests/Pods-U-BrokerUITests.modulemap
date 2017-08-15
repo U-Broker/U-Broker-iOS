@@ -1,0 +1,6 @@
+framework module Pods_U_BrokerUITests {
+  umbrella header "Pods-U-BrokerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

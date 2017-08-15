@@ -7,9 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08E6E10A7323CA900AA2000F /* Pods_U_BrokerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10671098437BBA37C7DD6A5 /* Pods_U_BrokerUITests.framework */; };
+		11DAEB74EB12E17FCE70061C /* Pods_U_BrokerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E378463D92802EA38B13593D /* Pods_U_BrokerTests.framework */; };
+		78278A5B1F19906600BBB68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78278A5A1F19906600BBB68C /* Main.storyboard */; };
+		782BC70B1F3D1B34002BE5CD /* CuentaNoVerificadaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782BC70A1F3D1B34002BE5CD /* CuentaNoVerificadaVC.swift */; };
+		783A79951F29611900997AE1 /* ReglonMisClientesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A79941F29611900997AE1 /* ReglonMisClientesTableViewCell.swift */; };
+		784E86BE1F1E82F800DC0BFC /* NuevoClienteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E86BD1F1E82F800DC0BFC /* NuevoClienteVC.swift */; };
+		784E86C01F20234E00DC0BFC /* MisClientesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E86BF1F20234E00DC0BFC /* MisClientesVC.swift */; };
+		785DF8001F2BA9330020DF01 /* DiseñoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DF7FF1F2BA9330020DF01 /* DiseñoCardView.swift */; };
+		7862BE541F21208600240B81 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862BE531F21208600240B81 /* FBSDKCoreKit.framework */; };
+		7867C3641F195D59004CAB6B /* InicioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7867C3631F195D59004CAB6B /* InicioVC.swift */; };
+		7867C3661F1967CC004CAB6B /* RegistroCuentaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7867C3651F1967CC004CAB6B /* RegistroCuentaVC.swift */; };
+		78711CA31F1807F000DCBAFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78711CA21F1807F000DCBAFD /* GoogleService-Info.plist */; };
+		788534271F4209FE001910B4 /* NuevoUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788534261F4209FE001910B4 /* NuevoUsuario.swift */; };
+		7885342B1F42186E001910B4 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885342A1F42186E001910B4 /* Usuario.swift */; };
+		789F72691F321B9300B41E1E /* Nivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F72681F321B9200B41E1E /* Nivel.swift */; };
+		789F726B1F321CF500B41E1E /* SegundoNivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F726A1F321CF500B41E1E /* SegundoNivel.swift */; };
+		789F726D1F3240CB00B41E1E /* RenglonExpandible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F726C1F3240CB00B41E1E /* RenglonExpandible.swift */; };
+		789F726F1F3240F800B41E1E /* RenglonExpandible.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789F726E1F3240F800B41E1E /* RenglonExpandible.xib */; };
+		78BBB4D91F2A986C0072D69B /* ModalMisClientesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBB4D81F2A986C0072D69B /* ModalMisClientesVC.swift */; };
+		78BBB4DB1F2AB1A50072D69B /* ProductosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBB4DA1F2AB1A50072D69B /* ProductosVC.swift */; };
+		78BBB4DD1F2AB1B70072D69B /* MiRedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBB4DC1F2AB1B70072D69B /* MiRedVC.swift */; };
+		78BBB4DF1F2ABE500072D69B /* RenglonProductoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBB4DE1F2ABE500072D69B /* RenglonProductoTVC.swift */; };
+		78CF122414F740A9D1A320C0 /* Pods_U_Broker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B4187BE09731BBE00E5A96 /* Pods_U_Broker.framework */; };
 		78DF632D1F1540A700C214A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF632C1F1540A700C214A4 /* AppDelegate.swift */; };
-		78DF632F1F1540A700C214A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF632E1F1540A700C214A4 /* ViewController.swift */; };
-		78DF63321F1540A700C214A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF63301F1540A700C214A4 /* Main.storyboard */; };
+		78DF632F1F1540A700C214A4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF632E1F1540A700C214A4 /* LoginVC.swift */; };
 		78DF63341F1540A700C214A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DF63331F1540A700C214A4 /* Assets.xcassets */; };
 		78DF63371F1540A700C214A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF63351F1540A700C214A4 /* LaunchScreen.storyboard */; };
 		78DF63421F1540A700C214A4 /* U_BrokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF63411F1540A700C214A4 /* U_BrokerTests.swift */; };
@@ -34,10 +56,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0813274A626888BBBA5EA0D3 /* Pods-U-Broker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Broker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U-Broker/Pods-U-Broker.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF8AEEE08CFBB482F7A1AFB /* Pods-U-Broker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-Broker.release.xcconfig"; path = "Pods/Target Support Files/Pods-U-Broker/Pods-U-Broker.release.xcconfig"; sourceTree = "<group>"; };
+		62F76BEDAD29205B1BAE1C2F /* Pods-U-BrokerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-BrokerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-U-BrokerUITests/Pods-U-BrokerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B61D13AC065EB42C093FBC3 /* Pods-U-BrokerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-BrokerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U-BrokerTests/Pods-U-BrokerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78278A5A1F19906600BBB68C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		782BC70A1F3D1B34002BE5CD /* CuentaNoVerificadaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuentaNoVerificadaVC.swift; sourceTree = "<group>"; };
+		783A79941F29611900997AE1 /* ReglonMisClientesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReglonMisClientesTableViewCell.swift; sourceTree = "<group>"; };
+		784E86BD1F1E82F800DC0BFC /* NuevoClienteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevoClienteVC.swift; sourceTree = "<group>"; };
+		784E86BF1F20234E00DC0BFC /* MisClientesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisClientesVC.swift; sourceTree = "<group>"; };
+		785DF7FF1F2BA9330020DF01 /* DiseñoCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DiseñoCardView.swift"; sourceTree = "<group>"; };
+		785DF8011F2C03090020DF01 /* aps_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = aps_development.cer; path = ../../../../../Downloads/aps_development.cer; sourceTree = "<group>"; };
+		7862BE531F21208600240B81 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7867C3631F195D59004CAB6B /* InicioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioVC.swift; sourceTree = "<group>"; };
+		7867C3651F1967CC004CAB6B /* RegistroCuentaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroCuentaVC.swift; sourceTree = "<group>"; };
+		78711CA21F1807F000DCBAFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		788534261F4209FE001910B4 /* NuevoUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevoUsuario.swift; sourceTree = "<group>"; };
+		7885342A1F42186E001910B4 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		7893EDF91F2165D900DEA615 /* U-Broker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "U-Broker.entitlements"; sourceTree = "<group>"; };
+		789F72681F321B9200B41E1E /* Nivel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nivel.swift; sourceTree = "<group>"; };
+		789F726A1F321CF500B41E1E /* SegundoNivel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundoNivel.swift; sourceTree = "<group>"; };
+		789F726C1F3240CB00B41E1E /* RenglonExpandible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenglonExpandible.swift; sourceTree = "<group>"; };
+		789F726E1F3240F800B41E1E /* RenglonExpandible.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RenglonExpandible.xib; sourceTree = "<group>"; };
+		78BBB4D81F2A986C0072D69B /* ModalMisClientesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalMisClientesVC.swift; sourceTree = "<group>"; };
+		78BBB4DA1F2AB1A50072D69B /* ProductosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductosVC.swift; sourceTree = "<group>"; };
+		78BBB4DC1F2AB1B70072D69B /* MiRedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiRedVC.swift; sourceTree = "<group>"; };
+		78BBB4DE1F2ABE500072D69B /* RenglonProductoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenglonProductoTVC.swift; sourceTree = "<group>"; };
 		78DF63291F1540A700C214A4 /* U-Broker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "U-Broker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DF632C1F1540A700C214A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78DF632E1F1540A700C214A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		78DF63311F1540A700C214A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78DF632E1F1540A700C214A4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		78DF63331F1540A700C214A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78DF63361F1540A700C214A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78DF63381F1540A700C214A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +94,11 @@
 		78DF63481F1540A700C214A4 /* U-BrokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "U-BrokerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DF634C1F1540A700C214A4 /* U_BrokerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_BrokerUITests.swift; sourceTree = "<group>"; };
 		78DF634E1F1540A700C214A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E65C92422C67AE4DCC13CA4 /* Pods-U-BrokerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-BrokerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U-BrokerUITests/Pods-U-BrokerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCA52BADB8721ABA4254C25 /* Pods-U-BrokerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U-BrokerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-U-BrokerTests/Pods-U-BrokerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B10671098437BBA37C7DD6A5 /* Pods_U_BrokerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_U_BrokerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E378463D92802EA38B13593D /* Pods_U_BrokerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_U_BrokerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B4187BE09731BBE00E5A96 /* Pods_U_Broker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_U_Broker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7862BE541F21208600240B81 /* FBSDKCoreKit.framework in Frameworks */,
+				78CF122414F740A9D1A320C0 /* Pods_U_Broker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DAEB74EB12E17FCE70061C /* Pods_U_BrokerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +123,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E6E10A7323CA900AA2000F /* Pods_U_BrokerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		387B4780290783A2148768B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7862BE531F21208600240B81 /* FBSDKCoreKit.framework */,
+				F0B4187BE09731BBE00E5A96 /* Pods_U_Broker.framework */,
+				E378463D92802EA38B13593D /* Pods_U_BrokerTests.framework */,
+				B10671098437BBA37C7DD6A5 /* Pods_U_BrokerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788534251F4209EA001910B4 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				788534261F4209FE001910B4 /* NuevoUsuario.swift */,
+				7885342A1F42186E001910B4 /* Usuario.swift */,
+			);
+			name = Structs;
+			sourceTree = "<group>";
+		};
+		789F72671F321B5200B41E1E /* MiRed */ = {
+			isa = PBXGroup;
+			children = (
+				789F72681F321B9200B41E1E /* Nivel.swift */,
+				789F726A1F321CF500B41E1E /* SegundoNivel.swift */,
+				789F726C1F3240CB00B41E1E /* RenglonExpandible.swift */,
+				789F726E1F3240F800B41E1E /* RenglonExpandible.xib */,
+			);
+			name = MiRed;
+			sourceTree = "<group>";
+		};
 		78DF63201F1540A700C214A4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +168,8 @@
 				78DF63401F1540A700C214A4 /* U-BrokerTests */,
 				78DF634B1F1540A700C214A4 /* U-BrokerUITests */,
 				78DF632A1F1540A700C214A4 /* Products */,
+				C845A043C5D8D355C4642896 /* Pods */,
+				387B4780290783A2148768B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +186,27 @@
 		78DF632B1F1540A700C214A4 /* U-Broker */ = {
 			isa = PBXGroup;
 			children = (
+				788534251F4209EA001910B4 /* Structs */,
+				789F72671F321B5200B41E1E /* MiRed */,
+				785DF8011F2C03090020DF01 /* aps_development.cer */,
+				7893EDF91F2165D900DEA615 /* U-Broker.entitlements */,
 				78DF632C1F1540A700C214A4 /* AppDelegate.swift */,
-				78DF632E1F1540A700C214A4 /* ViewController.swift */,
-				78DF63301F1540A700C214A4 /* Main.storyboard */,
+				78DF632E1F1540A700C214A4 /* LoginVC.swift */,
+				78278A5A1F19906600BBB68C /* Main.storyboard */,
+				782BC70A1F3D1B34002BE5CD /* CuentaNoVerificadaVC.swift */,
+				78BBB4DA1F2AB1A50072D69B /* ProductosVC.swift */,
+				785DF7FF1F2BA9330020DF01 /* DiseñoCardView.swift */,
+				78BBB4DE1F2ABE500072D69B /* RenglonProductoTVC.swift */,
+				78BBB4DC1F2AB1B70072D69B /* MiRedVC.swift */,
+				78BBB4D81F2A986C0072D69B /* ModalMisClientesVC.swift */,
+				783A79941F29611900997AE1 /* ReglonMisClientesTableViewCell.swift */,
+				784E86BF1F20234E00DC0BFC /* MisClientesVC.swift */,
+				784E86BD1F1E82F800DC0BFC /* NuevoClienteVC.swift */,
+				7867C3651F1967CC004CAB6B /* RegistroCuentaVC.swift */,
+				7867C3631F195D59004CAB6B /* InicioVC.swift */,
 				78DF63331F1540A700C214A4 /* Assets.xcassets */,
 				78DF63351F1540A700C214A4 /* LaunchScreen.storyboard */,
+				78711CA21F1807F000DCBAFD /* GoogleService-Info.plist */,
 				78DF63381F1540A700C214A4 /* Info.plist */,
 			);
 			path = "U-Broker";
@@ -125,6 +230,19 @@
 			path = "U-BrokerUITests";
 			sourceTree = "<group>";
 		};
+		C845A043C5D8D355C4642896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0813274A626888BBBA5EA0D3 /* Pods-U-Broker.debug.xcconfig */,
+				3BF8AEEE08CFBB482F7A1AFB /* Pods-U-Broker.release.xcconfig */,
+				6B61D13AC065EB42C093FBC3 /* Pods-U-BrokerTests.debug.xcconfig */,
+				9BCA52BADB8721ABA4254C25 /* Pods-U-BrokerTests.release.xcconfig */,
+				8E65C92422C67AE4DCC13CA4 /* Pods-U-BrokerUITests.debug.xcconfig */,
+				62F76BEDAD29205B1BAE1C2F /* Pods-U-BrokerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78DF63511F1540A700C214A4 /* Build configuration list for PBXNativeTarget "U-Broker" */;
 			buildPhases = (
+				FE3E4A8D3E3A4579DC8965B1 /* [CP] Check Pods Manifest.lock */,
 				78DF63251F1540A700C214A4 /* Sources */,
 				78DF63261F1540A700C214A4 /* Frameworks */,
 				78DF63271F1540A700C214A4 /* Resources */,
+				2C64C2CD8A9E1CF7FE3E289C /* [CP] Embed Pods Frameworks */,
+				FC61C3590E3B2F9F370233D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78DF63541F1540A700C214A4 /* Build configuration list for PBXNativeTarget "U-BrokerTests" */;
 			buildPhases = (
+				C6E07086621962A40A3F7493 /* [CP] Check Pods Manifest.lock */,
 				78DF63391F1540A700C214A4 /* Sources */,
 				78DF633A1F1540A700C214A4 /* Frameworks */,
 				78DF633B1F1540A700C214A4 /* Resources */,
+				11711D6414571B9B0EEA44CD /* [CP] Embed Pods Frameworks */,
+				898A5DFCE311FEA9AE2CF619 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78DF63571F1540A700C214A4 /* Build configuration list for PBXNativeTarget "U-BrokerUITests" */;
 			buildPhases = (
+				D14E82A0ECF731F609CD92F5 /* [CP] Check Pods Manifest.lock */,
 				78DF63441F1540A700C214A4 /* Sources */,
 				78DF63451F1540A700C214A4 /* Frameworks */,
 				78DF63461F1540A700C214A4 /* Resources */,
+				ADEF02F99DE65C5FD0879F48 /* [CP] Embed Pods Frameworks */,
+				1A6895CFA8C6C83C49FF60C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +320,16 @@
 				TargetAttributes = {
 					78DF63281F1540A700C214A4 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 2VKNZ8R5ZT;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					78DF633C1F1540A700C214A4 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -232,9 +368,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78278A5B1F19906600BBB68C /* Main.storyboard in Resources */,
 				78DF63371F1540A700C214A4 /* LaunchScreen.storyboard in Resources */,
+				789F726F1F3240F800B41E1E /* RenglonExpandible.xib in Resources */,
+				78711CA31F1807F000DCBAFD /* GoogleService-Info.plist in Resources */,
 				78DF63341F1540A700C214A4 /* Assets.xcassets in Resources */,
-				78DF63321F1540A700C214A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +392,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11711D6414571B9B0EEA44CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U-BrokerTests/Pods-U-BrokerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A6895CFA8C6C83C49FF60C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U-BrokerUITests/Pods-U-BrokerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C64C2CD8A9E1CF7FE3E289C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U-Broker/Pods-U-Broker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898A5DFCE311FEA9AE2CF619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U-BrokerTests/Pods-U-BrokerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADEF02F99DE65C5FD0879F48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U-BrokerUITests/Pods-U-BrokerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E07086621962A40A3F7493 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D14E82A0ECF731F609CD92F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC61C3590E3B2F9F370233D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U-Broker/Pods-U-Broker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3E4A8D3E3A4579DC8965B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78DF63251F1540A700C214A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78DF632F1F1540A700C214A4 /* ViewController.swift in Sources */,
+				7867C3641F195D59004CAB6B /* InicioVC.swift in Sources */,
+				78BBB4D91F2A986C0072D69B /* ModalMisClientesVC.swift in Sources */,
+				788534271F4209FE001910B4 /* NuevoUsuario.swift in Sources */,
+				78BBB4DD1F2AB1B70072D69B /* MiRedVC.swift in Sources */,
+				784E86C01F20234E00DC0BFC /* MisClientesVC.swift in Sources */,
+				789F726B1F321CF500B41E1E /* SegundoNivel.swift in Sources */,
+				7867C3661F1967CC004CAB6B /* RegistroCuentaVC.swift in Sources */,
+				784E86BE1F1E82F800DC0BFC /* NuevoClienteVC.swift in Sources */,
+				785DF8001F2BA9330020DF01 /* DiseñoCardView.swift in Sources */,
+				78DF632F1F1540A700C214A4 /* LoginVC.swift in Sources */,
+				782BC70B1F3D1B34002BE5CD /* CuentaNoVerificadaVC.swift in Sources */,
 				78DF632D1F1540A700C214A4 /* AppDelegate.swift in Sources */,
+				783A79951F29611900997AE1 /* ReglonMisClientesTableViewCell.swift in Sources */,
+				789F726D1F3240CB00B41E1E /* RenglonExpandible.swift in Sources */,
+				7885342B1F42186E001910B4 /* Usuario.swift in Sources */,
+				78BBB4DB1F2AB1A50072D69B /* ProductosVC.swift in Sources */,
+				789F72691F321B9300B41E1E /* Nivel.swift in Sources */,
+				78BBB4DF1F2ABE500072D69B /* RenglonProductoTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +588,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		78DF63301F1540A700C214A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78DF63311F1540A700C214A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78DF63351F1540A700C214A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,30 +696,50 @@
 		};
 		78DF63521F1540A700C214A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0813274A626888BBBA5EA0D3 /* Pods-U-Broker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "U-Broker/U-Broker.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 2VKNZ8R5ZT;
 				INFOPLIST_FILE = "U-Broker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arquimo.U-Broker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Credixgs.UBrokerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55590fb8-1525-4521-a283-b1d81daa0897";
+				PROVISIONING_PROFILE_SPECIFIER = UBroker;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		78DF63531F1540A700C214A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF8AEEE08CFBB482F7A1AFB /* Pods-U-Broker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "U-Broker/U-Broker.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Grupo Cantabria SA de CV (2VKNZ8R5ZT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Grupo Cantabria SA de CV (2VKNZ8R5ZT)";
+				DEVELOPMENT_TEAM = 2VKNZ8R5ZT;
 				INFOPLIST_FILE = "U-Broker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.arquimo.U-Broker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Credixgs.UBrokerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55590fb8-1525-4521-a283-b1d81daa0897";
+				PROVISIONING_PROFILE_SPECIFIER = UBroker;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		78DF63551F1540A700C214A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B61D13AC065EB42C093FBC3 /* Pods-U-BrokerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +754,7 @@
 		};
 		78DF63561F1540A700C214A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCA52BADB8721ABA4254C25 /* Pods-U-BrokerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +769,7 @@
 		};
 		78DF63581F1540A700C214A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E65C92422C67AE4DCC13CA4 /* Pods-U-BrokerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "U-BrokerUITests/Info.plist";
@@ -477,6 +783,7 @@
 		};
 		78DF63591F1540A700C214A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F76BEDAD29205B1BAE1C2F /* Pods-U-BrokerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "U-BrokerUITests/Info.plist";
@@ -507,6 +814,7 @@
 				78DF63531F1540A700C214A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78DF63541F1540A700C214A4 /* Build configuration list for PBXNativeTarget "U-BrokerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +823,7 @@
 				78DF63561F1540A700C214A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78DF63571F1540A700C214A4 /* Build configuration list for PBXNativeTarget "U-BrokerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +832,7 @@
 				78DF63591F1540A700C214A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
